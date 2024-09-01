@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <form>
+        <h2>Sign in</h2>
+
+        <div class="input-group">
+            <input type="text" placeholder="User name">
+            <input type="email" placeholder="Your email">
+            <input type="password" placeholder="Your Password" id="password">
+            <input type="password" placeholder="Confirm Password" id="confirm-password">
+
+            <div class="icon-input">
+                <i class="fa-solid fa-user-circle"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-lock"></i>
+                <i class="fa-solid fa-lock"></i>
+                <i class="fa-solid fa-eye-slash" id="eye1"></i>
+                <i class="fa-solid fa-eye-slash" id="eye2"></i>
+            </div>
+
+            <p class="message" id="message">Demo text</p>
+
+            <input type="button" value="Sign in" id="button" class="button">
+
+            <div class="or">
+                <span>------OR------</span>
+                <p>Sign in with google</p>
+                <i class="fa-brands fa-google"></i>
+                <p>&copy; 2024 Aldhivo</p>
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
